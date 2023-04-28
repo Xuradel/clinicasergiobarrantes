@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/clinicasergiobarrantes/static/css/main.13ed00fc.css",
+    "main.js": "/clinicasergiobarrantes/static/js/main.1138337b.js",
+    "static/media/def.png": "/clinicasergiobarrantes/static/media/def.4c77d011e71db3ab75dc.png",
+    "static/media/choose.png": "/clinicasergiobarrantes/static/media/choose.8ef80933387d61ddacfa.png",
+    "static/media/Poppins-Light.ttf": "/clinicasergiobarrantes/static/media/Poppins-Light.25b96349cf564e8ba0dc.ttf",
+    "static/media/Poppins-Regular.ttf": "/clinicasergiobarrantes/static/media/Poppins-Regular.4211496d0e075ffe7c2f.ttf",
+    "static/media/Poppins-Bold.ttf": "/clinicasergiobarrantes/static/media/Poppins-Bold.300a4da54f1e6258b6f7.ttf",
+    "static/media/reviewV.png": "/clinicasergiobarrantes/static/media/reviewV.a6e02d91782196cef375.png",
+    "static/media/reviews.png": "/clinicasergiobarrantes/static/media/reviews.d72c598ffd9272a283c7.png",
+    "static/media/logoVet.png": "/clinicasergiobarrantes/static/media/logoVet.62554bb3488a1177454c.png",
+    "index.html": "/clinicasergiobarrantes/index.html",
+    "main.13ed00fc.css.map": "/clinicasergiobarrantes/static/css/main.13ed00fc.css.map",
+    "main.1138337b.js.map": "/clinicasergiobarrantes/static/js/main.1138337b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13ed00fc.css",
+    "static/js/main.1138337b.js"
+  ]
+}
