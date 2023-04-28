@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clinicasergiobarrantes/static/css/main.13ed00fc.css",
-    "main.js": "/clinicasergiobarrantes/static/js/main.1138337b.js",
+    "main.js": "/clinicasergiobarrantes/static/js/main.fa0ace0a.js",
     "static/media/def.png": "/clinicasergiobarrantes/static/media/def.4c77d011e71db3ab75dc.png",
     "static/media/choose.png": "/clinicasergiobarrantes/static/media/choose.8ef80933387d61ddacfa.png",
     "static/media/Poppins-Light.ttf": "/clinicasergiobarrantes/static/media/Poppins-Light.25b96349cf564e8ba0dc.ttf",
@@ -12,10 +12,10 @@
     "static/media/logoVet.png": "/clinicasergiobarrantes/static/media/logoVet.62554bb3488a1177454c.png",
     "index.html": "/clinicasergiobarrantes/index.html",
     "main.13ed00fc.css.map": "/clinicasergiobarrantes/static/css/main.13ed00fc.css.map",
-    "main.1138337b.js.map": "/clinicasergiobarrantes/static/js/main.1138337b.js.map"
+    "main.fa0ace0a.js.map": "/clinicasergiobarrantes/static/js/main.fa0ace0a.js.map"
   },
   "entrypoints": [
     "static/css/main.13ed00fc.css",
-    "static/js/main.1138337b.js"
+    "static/js/main.fa0ace0a.js"
   ]
 }
