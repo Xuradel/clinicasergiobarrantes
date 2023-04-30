@@ -41,9 +41,9 @@ const Header = () => {
                 <img src={require("../images/logoVet.png")} alt="logo" id="logo"></img>
                 <nav>
                     <ul className="nav-menu">
-                        <li className='nav-item'><a href="#" className='nav-link'><Link to='/homepage' className='nav-link'>Inicio</Link></a></li>
+                        <li className='nav-item'><a href="#" className='nav-link'><Link to='/clinicasergiobarrantes' className='nav-link'>Inicio</Link></a></li>
                         <li className='nav-item'><a href="#" className='nav-link'><Link to='/about' className='nav-link'>Nosotros</Link></a></li>
-                        <li className='nav-item'><a href="#" className='nav-link'><Link to='/products' className='nav-link'>Productos</Link></a></li>
+                        {/* <li className='nav-item'><a href="#" className='nav-link'><Link to='/products' className='nav-link'>Productos</Link></a></li> */}
                         <li className='nav-item'><a href="#" className='nav-link'><Link to='/contact' className='nav-link'>Contacto</Link></a></li>
                     </ul>
                     <div className="hamburger">
@@ -54,7 +54,7 @@ const Header = () => {
                 </nav>
             </header>
             <Routes>
-                <Route path='/homepage' element={<Homepage />} />
+                <Route path='/clinicasergiobarrantes' element={<Homepage />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/products' element={<Products />} />
                 <Route path='/contact' element={<Contact />} />
