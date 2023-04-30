@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clinicasergiobarrantes/static/css/main.c1a4c42c.css",
-    "main.js": "/clinicasergiobarrantes/static/js/main.a7751c11.js",
+    "main.js": "/clinicasergiobarrantes/static/js/main.ff68b1ae.js",
     "static/media/vetPC.png": "/clinicasergiobarrantes/static/media/vetPC.0a9e442a24d77c4edef9.png",
     "static/media/acerca.png": "/clinicasergiobarrantes/static/media/acerca.63d5f838ce2f8425e1b9.png",
     "static/media/contacto.png": "/clinicasergiobarrantes/static/media/contacto.f79abe2b1be2202a11c4.png",
@@ -15,10 +15,10 @@
     "static/media/logoVet.png": "/clinicasergiobarrantes/static/media/logoVet.62554bb3488a1177454c.png",
     "index.html": "/clinicasergiobarrantes/index.html",
     "main.c1a4c42c.css.map": "/clinicasergiobarrantes/static/css/main.c1a4c42c.css.map",
-    "main.a7751c11.js.map": "/clinicasergiobarrantes/static/js/main.a7751c11.js.map"
+    "main.ff68b1ae.js.map": "/clinicasergiobarrantes/static/js/main.ff68b1ae.js.map"
   },
   "entrypoints": [
     "static/css/main.c1a4c42c.css",
-    "static/js/main.a7751c11.js"
+    "static/js/main.ff68b1ae.js"
   ]
 }
