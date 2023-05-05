@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/clinicasergiobarrantes/static/css/main.6d1f7964.css",
-    "main.js": "/clinicasergiobarrantes/static/js/main.96a30987.js",
+    "main.css": "/clinicasergiobarrantes/static/css/main.a53f12b5.css",
+    "main.js": "/clinicasergiobarrantes/static/js/main.037ca09a.js",
     "static/media/vetPC.png": "/clinicasergiobarrantes/static/media/vetPC.0a9e442a24d77c4edef9.png",
+    "static/media/banner.png": "/clinicasergiobarrantes/static/media/banner.b060dad9b85e1400b062.png",
     "static/media/acerca.png": "/clinicasergiobarrantes/static/media/acerca.63d5f838ce2f8425e1b9.png",
     "static/media/contacto.png": "/clinicasergiobarrantes/static/media/contacto.f79abe2b1be2202a11c4.png",
     "static/media/choose.png": "/clinicasergiobarrantes/static/media/choose.84dc19e7a0295439eea3.png",
@@ -11,14 +12,12 @@
     "static/media/Poppins-Light.ttf": "/clinicasergiobarrantes/static/media/Poppins-Light.25b96349cf564e8ba0dc.ttf",
     "static/media/Poppins-Regular.ttf": "/clinicasergiobarrantes/static/media/Poppins-Regular.4211496d0e075ffe7c2f.ttf",
     "static/media/Poppins-Bold.ttf": "/clinicasergiobarrantes/static/media/Poppins-Bold.300a4da54f1e6258b6f7.ttf",
-    "static/media/reviews.png": "/clinicasergiobarrantes/static/media/reviews.d72c598ffd9272a283c7.png",
-    "static/media/logoVet.png": "/clinicasergiobarrantes/static/media/logoVet.62554bb3488a1177454c.png",
     "index.html": "/clinicasergiobarrantes/index.html",
-    "main.6d1f7964.css.map": "/clinicasergiobarrantes/static/css/main.6d1f7964.css.map",
-    "main.96a30987.js.map": "/clinicasergiobarrantes/static/js/main.96a30987.js.map"
+    "main.a53f12b5.css.map": "/clinicasergiobarrantes/static/css/main.a53f12b5.css.map",
+    "main.037ca09a.js.map": "/clinicasergiobarrantes/static/js/main.037ca09a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d1f7964.css",
-    "static/js/main.96a30987.js"
+    "static/css/main.a53f12b5.css",
+    "static/js/main.037ca09a.js"
   ]
 }
