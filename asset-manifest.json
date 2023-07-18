@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/clinicasergiobarrantes/static/css/main.a53f12b5.css",
-    "main.js": "/clinicasergiobarrantes/static/js/main.31f2e85a.js",
-    "static/media/vetPC.png": "/clinicasergiobarrantes/static/media/vetPC.0a9e442a24d77c4edef9.png",
+    "main.css": "/clinicasergiobarrantes/static/css/main.30897d28.css",
+    "main.js": "/clinicasergiobarrantes/static/js/main.92109ed1.js",
     "static/media/banner.png": "/clinicasergiobarrantes/static/media/banner.b060dad9b85e1400b062.png",
-    "static/media/acerca.png": "/clinicasergiobarrantes/static/media/acerca.63d5f838ce2f8425e1b9.png",
-    "static/media/contacto.png": "/clinicasergiobarrantes/static/media/contacto.f79abe2b1be2202a11c4.png",
-    "static/media/choose.png": "/clinicasergiobarrantes/static/media/choose.84dc19e7a0295439eea3.png",
-    "static/media/acerca2.png": "/clinicasergiobarrantes/static/media/acerca2.8d612966506ec8b93f5e.png",
-    "static/media/vetMobile.png": "/clinicasergiobarrantes/static/media/vetMobile.cb4a3d9eab71da76fefd.png",
+    "static/media/pets.png": "/clinicasergiobarrantes/static/media/pets.2a150783025c4f4f5240.png",
+    "static/media/vet2.png": "/clinicasergiobarrantes/static/media/vet2.d1c835b4bdf419abebda.png",
+    "static/media/vet1.png": "/clinicasergiobarrantes/static/media/vet1.23fac59e8dc55671c15f.png",
+    "static/media/dog.png": "/clinicasergiobarrantes/static/media/dog.d55c34b32ad7ea6519be.png",
+    "static/media/cat.png": "/clinicasergiobarrantes/static/media/cat.eeee78ea1493e033ffa1.png",
     "static/media/Poppins-Light.ttf": "/clinicasergiobarrantes/static/media/Poppins-Light.25b96349cf564e8ba0dc.ttf",
     "static/media/Poppins-Regular.ttf": "/clinicasergiobarrantes/static/media/Poppins-Regular.4211496d0e075ffe7c2f.ttf",
     "static/media/Poppins-Bold.ttf": "/clinicasergiobarrantes/static/media/Poppins-Bold.300a4da54f1e6258b6f7.ttf",
     "index.html": "/clinicasergiobarrantes/index.html",
-    "main.a53f12b5.css.map": "/clinicasergiobarrantes/static/css/main.a53f12b5.css.map",
-    "main.31f2e85a.js.map": "/clinicasergiobarrantes/static/js/main.31f2e85a.js.map"
+    "main.30897d28.css.map": "/clinicasergiobarrantes/static/css/main.30897d28.css.map",
+    "main.92109ed1.js.map": "/clinicasergiobarrantes/static/js/main.92109ed1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a53f12b5.css",
-    "static/js/main.31f2e85a.js"
+    "static/css/main.30897d28.css",
+    "static/js/main.92109ed1.js"
   ]
 }
