@@ -6,6 +6,7 @@ import Products from './Products';
 import Contact from './Contact';
 import About from './About';
 import { Routes, Route, Link } from 'react-router-dom';
+import Services from './Services';
 
 function script() {
     const hamburger = document.querySelector(".hamburger");
@@ -38,12 +39,12 @@ const Header = () => {
     return (
         <>
             <header className='navbar'>
-                <img src={require("../images/logoVet.png")} alt="logo" id="logo"></img>
+                <img src={require("../images/logo.png")} alt="logo" id="logo"></img>
                 <nav>
                     <ul className="nav-menu">
                         <li className='nav-item'><a href="#" className='nav-link'><Link to='/clinicasergiobarrantes' className='nav-link'>Inicio</Link></a></li>
                         <li className='nav-item'><a href="#" className='nav-link'><Link to='/about' className='nav-link'>Nosotros</Link></a></li>
-                        {/* <li className='nav-item'><a href="#" className='nav-link'><Link to='/products' className='nav-link'>Productos</Link></a></li> */}
+                        <li className='nav-item'><a href="#" className='nav-link'><Link to='/services' className='nav-link'>Servicios</Link></a></li>
                         <li className='nav-item'><a href="#" className='nav-link'><Link to='/contact' className='nav-link'>Contacto</Link></a></li>
                     </ul>
                     <div className="hamburger">
@@ -56,6 +57,7 @@ const Header = () => {
             <Routes>
                 <Route path='/clinicasergiobarrantes' element={<Homepage />} />
                 <Route path='/about' element={<About />} />
+                <Route path='/services' element={<Services />} />
                 <Route path='/products' element={<Products />} />
                 <Route path='/contact' element={<Contact />} />
             </Routes>

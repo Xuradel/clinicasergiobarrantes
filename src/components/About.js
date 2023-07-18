@@ -26,7 +26,7 @@ const About = () => {
                     </div>
 
                     <div className="about-image">
-                        <img src={require('../images/acerca.png')}></img>
+                        <img src={require('../images/vet1.png')}></img>
                     </div>
                 </div>
                 <div className="side2">
@@ -46,7 +46,7 @@ const About = () => {
                             ¡Esperamos conocerle a usted y a sus adorables amigos peludos.</p>
                     </div>
                     <div className="about-image">
-                        <img src={require('../images/acerca2.png')}></img>
+                        <img src={require('../images/vet2.png')}></img>
                     </div>
                 </div>
 

@@ -1,70 +1,96 @@
+import './Footer.css'
+
 const Footer = () => {
     return (
-        <div className="footer">
-            <footer class="footer-distributed">
+        <footer class="footer">
+            <div class="footer__addr">
+                <h1 class="footer__logo">Clínica Sergio Barrantes</h1>
 
-                <div class="footer-left">
+                <h2>Contacto</h2>
 
-                <img src={require("../images/logoVet.png")} alt="logo" id="logo"></img>
+                <address>
+                Nos encontramos 25 metros norte de la Upiav en San José, San Isidro de El General.<br />
 
-                    <p class="footer-links">
-                        <a href="#" class="link-1">Home</a>
+                    <a class="footer__btn" href="mailto:example@gmail.com">Email</a>
+                </address>
+            </div>
 
-                        <a href="#">Blog</a>
+            <ul class="footer__nav">
+                <li class="nav__item">
+                    <h2 class="nav__title">Veterinaria</h2>
 
-                        <a href="#">Precios</a>
+                    <ul class="nav__ul">
+                        <li>
+                            <a href="#">Nosotros</a>
+                        </li>
 
-                        <a href="#">Nosotros</a>
+                        <li>
+                            <a href="#">Contacto</a>
+                        </li>
 
-                        <a href="#">FAQ</a>
+                        <li>
+                            <a href="#">Ayuda</a>
+                        </li>
+                    </ul>
+                </li>
 
-                        <a href="#">Contacto</a>
-                    </p>
+                <li class="nav__item nav__item--extra">
+                    <h2 class="nav__title">Servicios</h2>
 
-                    <p class="footer-company-name">Clinica Veterinaria Sergio Barrantes © 2015</p>
+                    <ul class="nav__ul nav__ul--extra">
+                        <li>
+                            <a href="#">Consultas</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Vacunación</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Cirugía</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Odontología</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Cuidado</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Terapia</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav__item">
+                    <h2 class="nav__title">Legal</h2>
+
+                    <ul class="nav__ul">
+                        <li>
+                            <a href="#">Política de privacidad</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Términos y condiciones</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Mapa</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="legal">
+                <p>&copy; 2023 Clínica Sergio Barrantes. Todos los derechos reservados.</p>
+
+                <div class="legal__links">
+                    <span>Hecho con <span class="heart">♥</span> para nuestras mascotas.</span>
                 </div>
-
-                <div class="footer-center">
-
-                    <div>
-                        <i class="fa fa-map-marker"></i>
-                        <p><span>Calle al Hospital, 25mts Norte de la Upiav,
-                        </span> San José, San Isidro de El General, 11901</p>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-phone"></i>
-                        <p>27710976</p>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-envelope"></i>
-                        <p><a href="mailto:leagueofxuradel@gmail.com">support@company.com</a></p>
-                    </div>
-
-                </div>
-
-                <div class="footer-right">
-
-                    <p class="footer-company-about">
-                        <span>Acerca de la clinica</span>
-                        Somos una veterinaria ejemplar decididos a dar el mejor servicio posible
-                        para nuestros clientes y sus mascotas.
-                    </p>
-
-                    <div class="footer-icons">
-
-                        {/* <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-github"></i></a> */}
-
-                    </div>
-
-                </div>
-
-            </footer>
-        </div>
+            </div>
+        </footer>
     )
 }
 

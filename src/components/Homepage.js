@@ -2,23 +2,20 @@ import Footer from "./Footer";
 import { useMediaQuery } from 'react-responsive'
 import { Routes, Route, Link } from 'react-router-dom';
 import Contact from "./Contact";
-
+import ChooseSection from "./ChooseSection";
+import Service from "./Service";
 const Homepage = () => {
     const mobile = useMediaQuery({ query: '(max-width: 600px)' })
 
     return (
         <>
             <div className="home">
-                {!mobile ?
-                    <img src={require("../images/vetPC.png")} className="home-background"></img> :
-                    <img src={require("../images/vetMobile.png")} className="home-background"></img>}
                 <div className="text-zone">
-                    <p className="vet-title">Veterinaria.</p>
                     <h1 className="vet-h">
-                        Cuidando tus mascotas por nuestros veterinarios profesionales.
+                        Brindamos atención médica de alta calidad para tus queridas mascotas.
                     </h1>
                     <p className="vet-p">Veterinaria Barrantes está aquí para traerle amor, salud y felicidad a sus mascotas.
-                        Estamos para darle la mejor experiencia posible.
+                        Juntos por la salud y felicidad de tus mascotas.
                     </p>
 
                     <a href="#escoger" className="contact-link">
@@ -34,27 +31,15 @@ const Homepage = () => {
                     </div>
                 </div>
                 <div className="home-image-zone">
-                    {/* <img src={require("../images/def.png")} className="home-image"></img> */}
+                    <img src={require('../images/dog.png')}></img>
                 </div>
             </div>
-            <div className="reviews">
-                <div className="reviews-elements">
-                    {mobile ?
-                        null :
-                        <img src={require("../images/reviews.png")} className="review-img"></img>}
-                </div>
-            </div>
-            <div className="choose" id="escoger">
-                <div className="choose-text">
-                    <h1 className="choose-h">Por qué elegirnos?</h1>
-                    <p className="choose-p">Somos la mejor veterinaria de Perez Zeledon.
-                        Ademas de tener mucha experiencia y seguridad en el cuido de mascotas.</p>
-                </div>
-                <img src={require("../images/choose.png")} className="choose-img"></img>
-            </div>
+
             <Routes>
                 <Route path='/contact' element={<Contact />} />
             </Routes>
+            <ChooseSection />
+            <Service></Service>
             <Footer />
         </>
     )
